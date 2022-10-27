@@ -1,0 +1,13 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 2em;
+  flex-direction: column;
+  .avatar {
+    max-width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
